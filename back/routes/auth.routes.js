@@ -5,7 +5,7 @@ router.post('/signup', (req, res, next) => {
   /* Get back the payload from your request, as it's a POST you can access req.body */
 
   /* Hash the password using bcryptjs */
-
+  const passwordHash = 
   /* Record your user to the DB */
 
   res.json('Pinging signup')
